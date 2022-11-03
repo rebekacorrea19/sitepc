@@ -6,7 +6,7 @@
            
     </head>
     
-    <body>
+    <body>    
         <img id="banner" src="banner.jpg">
     
     <h1>sobre a manicure de unha em fibra alura</h1>
@@ -29,15 +29,22 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
+<div class="beneficios">
+    <h2>Benefícios</h2>
+
+    <ul>
+        <li class="itens">Atendimento aos Clientes</li>
+        <li class="itens">Espaço diferenciado</li>
+        <li class="itens">Localização</li>
+        <li class="itens">Profissionais Qualificados</li>
+    </ul>
+
+    <img src="beneficios.jpg" class="imagembeneficios">
+</div>    
   
+             <h2>benificios</h2>
+       </body>
+  </hmtl>
 
           
  body  {
@@ -68,14 +75,40 @@ p {
          }
     
     
+.titulo-centralizado {
+    text-align: center
+}    
+    
+   <header>
+    <h1 class="titulo-principal">manicure alura</h1>
+</header> 
     
     
+    <h2 class="titulo-centralizado">Sobre o curso de manicure alura</h2>
+    
+    .titulo-principal {
+    padding-left: 20px;
+}    
+    
+    .itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+    
+h2 {
+    text-align: center;
+}
     
     
-    
-    
-    
-    
-    
+    ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
     
     
